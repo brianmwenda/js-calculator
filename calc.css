@@ -2,7 +2,7 @@
 body{
   text-align: center;
   background-color: black;
-  background-image: linear-gradient(rgb(66, 0, 66),rgb(0, 57, 61));
+  background-image: linear-gradient(rgb(42, 0, 66),rgb(0, 57, 61));
 }
 #link{
   list-style: none;
@@ -73,7 +73,7 @@ section{
   height: 70%;
   margin-left: 50%;
   transform: translateX(-50%);
-  background-color: rgb(80, 25, 3,.2);
+  background-color: rgba(46, 14, 1, 0.2);
 }
 section div{
   padding: 25px 0;
@@ -109,7 +109,7 @@ section div li a:hover{
 }
 
 .morerow li a{
-  font-size: 13px;
+  font-size: 15px;
 
 }
 .morerow li{
