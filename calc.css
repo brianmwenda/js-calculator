@@ -76,12 +76,12 @@ section{
   background-color: rgb(80, 25, 3,.2);
 }
 section div{
-  padding: 22px 0;
+  padding: 25px 0;
 }
 section div li{
 display: inline-block;
 list-style-type: none;
-padding: 0 20px;
+padding: 0 15px;
 }
 section div li a{
   font-size: 30px;
