@@ -1,0 +1,150 @@
+
+body{
+  text-align: center;
+  background-color: black;
+  background-image: linear-gradient(rgb(66, 0, 66),rgb(0, 57, 61));
+}
+#link{
+  list-style: none;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+p{
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-50%);
+ bottom: 0;
+ font-size: 10px;
+}
+.fa{
+  z-index: 1000;
+  color: white;
+  border: 1px solid gray;
+  padding: 5px;
+  
+}
+.fa:hover{
+  border-style:inset;
+  border-color: white;
+  color:gray;
+}
+
+section{
+  outline: 2px solid gray;
+  width: 100%;
+  height: 97.5vh;
+}
+.display{
+  background-image: linear-gradient(gray,rgb(27, 27, 27));
+  border: 2px solid white;
+  border-style: inset;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+.display li{
+
+  color: black;
+  text-transform: uppercase;
+  font-size: 20px;
+
+}
+.display li a{
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+
+}
+.display li a:hover{
+  outline:none;
+  outline-offset: none;
+  outline-style: none;
+  
+
+}
+
+.cont{
+  width: 100%;
+}
+#dial{
+  width: 80%;
+  height: 70%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(80, 25, 3,.2);
+}
+section div{
+  padding: 25px 0;
+}
+section div li{
+display: inline-block;
+list-style-type: none;
+padding: 0 20px;
+}
+section div li a{
+  font-size: 37px;
+  text-decoration: none;
+  color: white;
+
+}
+section div li a:hover{
+  outline: 2px solid gray;
+  outline-offset: 10px;
+  outline-style: inset;
+
+}
+.morerow{
+  
+  position: absolute;
+  bottom:0;
+  left: 50%;
+  width: 80%;
+  height: 10px;
+  transform: translateX(-50%);
+
+
+
+}
+
+.morerow li a{
+  font-size: 15px;
+
+}
+.morerow li{
+  padding:0 22px;
+}
+@media(min-width:600px){
+  section div li{
+  padding: 0 40px;
+  }
+  .morerow li{
+    padding:0 45px;
+  }
+}
+@media(min-width:950px){
+  section div li{
+  padding: 0 60px;
+  }
+  .morerow{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    width: 10%;
+    height: 54%;
+
+  
+
+  }
+  .morerow li{
+    display: block;
+    padding: 30px 0 30px 20px;
+  }
+
+}
+@media(min-width:1140px){
+  section div li{
+  padding: 0 80px;
+  }
+}
